@@ -34,3 +34,10 @@ trade_env/
 --- Power BI (Optional: Keep if you want version control, ignore if too large) ---
 
 *.pbix
+
+data/
+*.csv
+*.xlsx
+*.db
+*.pbix
+trade_env/
