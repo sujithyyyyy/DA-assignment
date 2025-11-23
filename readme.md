@@ -108,6 +108,8 @@ The dashboard (dashboards/Trade_Analysis_Dashboard.pbix) connects to the process
 
 1. Macro Dashboard
 
+![macro dashboard picture](image-1.png)
+
 Trends: Line chart of Total Imports vs. Duty Paid (2017–2025).
 
 Heatmap: Year-over-Year growth % (Red = Negative, Green = Positive).
@@ -115,12 +117,15 @@ Heatmap: Year-over-Year growth % (Red = Negative, Green = Positive).
 Note: Uses a custom DAX measure for robust YoY calculation on sparse dates.
 
 2. Category & Supplier Analysis
+![Category & Supplier Analysis](image-2.png)
 
 Drill-Down: TreeMap allowing navigation from Category → Sub-Category → Model.
 
 Supplier Churn: Visualizes active vs. inactive suppliers using the synthetic supplier logic.
 
 3. Unit Economics
+
+![Unit Economics](image-3.png)
 
 Scatter Plot: Correlates Quantity Purchased with Landed Cost Per Unit to identify economies of scale and procurement anomalies.
 
