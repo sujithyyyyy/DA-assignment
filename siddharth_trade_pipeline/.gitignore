@@ -1,0 +1,36 @@
+--- Data Files (Never commit these!) ---
+
+data/raw/
+data/processed/
+*.csv
+*.xlsx
+*.xls
+
+--- Database ---
+
+*.db
+*.sqlite
+*.sqlite3
+
+--- Python System Files ---
+
+pycache/
+*.pyc
+*.pyo
+
+--- Virtual Environments (Crucial to ignore) ---
+
+venv/
+env/
+trade_env/
+.env
+
+--- IDE Settings ---
+
+.vscode/
+.idea/
+.DS_Store
+
+--- Power BI (Optional: Keep if you want version control, ignore if too large) ---
+
+*.pbix
